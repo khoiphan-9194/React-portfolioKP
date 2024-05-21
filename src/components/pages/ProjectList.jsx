@@ -5,7 +5,7 @@ export default function ProjectList() {
                 <section className="col project">
                     <div className="project-wrap">
                         <h4 className="project-title">Share Sphere</h4>
-                        <img src="/sharesphere.png" className="project-img"></img>
+                        <img src="public/sharesphere.png" className="project-img"></img>
                         <div className="project-links">
                         <a href="https://share-sphere-68ac42e28aff.herokuapp.com/" target="_blank" rel="noopener noreferrer"><box-icon name="link" color="white"></box-icon></a>
                         <a href="https://github.com/kerilsen/share-sphere" target="_blank" rel="noopener noreferrer"><box-icon type="logo" name="github" color="white"></box-icon></a>
@@ -15,7 +15,7 @@ export default function ProjectList() {
                 <section className="col project">
                     <div className="project-wrap">
                         <h4 className="project-title">Weather Dashboard</h4>
-                        <img src="/weatherdashboard.png" className="project-img"></img>
+                        <img src="public/weatherdashboard.png" className="project-img"></img>
                         <div className="project-links">
                         <a href="https://eaeidsath.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer"><box-icon name="link" color="white"></box-icon></a>
                         <a href="https://github.com/eaeidsath/Weather-Dashboard" target="_blank" rel="noopener noreferrer"><box-icon type="logo" name="github" color="white"></box-icon></a>
@@ -27,7 +27,7 @@ export default function ProjectList() {
                 <section className="col project">
                     <div className="project-wrap">
                         <h4 className="project-title">E-commerce Back End</h4>
-                        <img src="/ecommerce.png" className="project-img"></img>
+                        <img src="public/ecommerce.png" className="project-img"></img>
                         <div className="project-links">
                         <a href="https://youtu.be/lMwiu-GUd1A?si=K8dkqcLMWLP6hWFk" target="_blank" rel="noopener noreferrer"><box-icon name="link" color="white"></box-icon></a>
                         <a href="https://github.com/eaeidsath/E-commerce-Back-End" target="_blank" rel="noopener noreferrer"><box-icon type="logo" name="github" color="white"></box-icon></a>
@@ -38,7 +38,7 @@ export default function ProjectList() {
                 <section className="col project">
                     <div className="project-wrap">
                         <h4 className="project-title">README Generator</h4>
-                        <img src="/readmegenerator.png" className="project-img"></img>
+                        <img src="public/readmegenerator.png" className="project-img"></img>
                         <div className="project-links">
                         <a href="https://share-sphere-68ac42e28aff.herokuapp.com/" target="_blank" rel="noopener noreferrer"><box-icon name="link" color="white"></box-icon></a>
                         <a href="https://github.com/eaeidsath/README-Generator" target="_blank" rel="noopener noreferrer"><box-icon type="logo" name="github" color="white"></box-icon></a>
