@@ -1,0 +1,60 @@
+#projectDiv {
+  margin: 0.2rem auto;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  border: 4px ridge gray;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+#projectDiv h3 {
+  font-size: 1.4rem;
+  margin: 0 0 0.3rem 0;
+}
+
+#projectDiv img {
+  width: 300px;
+}
+
+.my-1 {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 680px) {
+  #projectDiv {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 1rem;    
+    font-size: 1rem;
+  }
+
+  #projectDiv h3 {
+    font-size: 1.6rem;
+  }
+
+  #projectDiv img {
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  #projectDiv {
+    font-size: 1.2rem;
+  }
+
+  #projectDiv img {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1460px) {
+  #projectDiv img {
+    width: 496px;
+  }
+}
+
+@media screen and (min-width: 1720px) {
+  #projectDiv img {
+    width: 600px;
+  }
+}

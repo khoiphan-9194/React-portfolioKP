@@ -1,0 +1,30 @@
+.mx-2 {
+  margin: 0 2rem;
+}
+
+.skillsUl {
+  margin: 0;
+  padding: 0;
+  list-style: circle inside;
+}
+
+@media screen and (min-width: 768px) {
+  .skillsDiv {
+    margin-left: 3.5rem;
+  }
+
+  #resumeSection {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .skillsDiv {
+    margin-left: 4.5rem;
+  }
+
+  #resumeSection {
+    /* width: 80%; */
+    margin-left: 6.2rem;
+  }
+}

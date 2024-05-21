@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "module": "UMD"
+  },
+  "exclude": ["node_modules"]
+}

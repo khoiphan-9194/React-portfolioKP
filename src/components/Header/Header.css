@@ -1,0 +1,57 @@
+header {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/img/banner.png');
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-height: fit-content;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 1rem 0 0 2rem;
+}
+
+#header-div {
+  width: 100%;
+  transition: all 1s linear;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    min-height: 100px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    margin: 2rem 2rem 2rem 2rem;
+  }
+
+  #header-div {
+    width: 90%;
+  }
+
+  header {
+    min-height: fit-content;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header {
+    min-width: 100%;
+  }
+
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    margin: 2rem 2rem 2rem 2rem;
+  }
+
+  #header-div {
+    width: 80%;
+  }
+}

@@ -1,0 +1,40 @@
+#img-div img {
+  margin: auto;
+  width: 80%;
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+#img-div {
+  display: flex;
+  justify-content: start;
+}
+
+#about-div {
+  justify-content: baseline;
+}
+
+#p-div {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+  margin: auto;
+  align-items: flex-start;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 980px) {
+  #img-div {
+    width: 30%;
+    display: flex;
+    align-items: baseline;
+  }
+
+  #img-div img {
+    margin: 2rem;
+  }
+
+  #p-div {
+    width: 70%;
+  }
+}
