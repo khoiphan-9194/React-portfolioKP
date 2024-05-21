@@ -50,7 +50,7 @@ export default function ProjectList() {
                 <section className="col project">
                     <div className="project-wrap">
                         <h4 className="project-title">Note Taker</h4>
-                        <img src="/notetaker.png" className="project-img"></img>
+                        <img src="public/notetaker.png" className="project-img"></img>
                         <div className="project-links">
                         <a href="https://note-taker-vtt5.onrender.com/k" target="_blank" rel="noopener noreferrer"><box-icon name="link" color="white"></box-icon></a>
                         <a href="https://github.com/eaeidsath/Note-Taker" target="_blank" rel="noopener noreferrer"><box-icon type="logo" name="github" color="white"></box-icon></a>
